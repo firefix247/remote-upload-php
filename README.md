@@ -1,8 +1,8 @@
-## Remote Upload in php
+# Remote Upload in php
 How to remotely upload a file to a php host without having to download the file on one's PC first
 
 
-# Step 1: Create the HTML Form (get.html)
+## Step 1: Create the HTML Form (get.html)
 
 First, create a simple HTML file with a form for the user to input the URL.
 
@@ -35,7 +35,7 @@ First, create a simple HTML file with a form for the user to input the URL.
 ```
 
 
-# Step 2: Create the PHP Script (get.php)
+## Step 2: Create the PHP Script (get.php)
 
 Next, create the get.php script that will process the form submission. This script uses cURL to handle the file download, including automatically following redirects.
 
